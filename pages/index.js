@@ -4,7 +4,7 @@ import { BlockRenderer } from "components/BlockRenderer";
 import { cleanAndTransfromBlocks } from "utils/cleanAndTransfromBlocks";
 
 export default function Home(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div>
       <BlockRenderer blocks={props.blocks} />
